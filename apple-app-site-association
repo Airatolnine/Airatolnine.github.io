@@ -1,0 +1,15 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "5R6ZV9HNMA.io.dvizz.app",
+                "paths": [ "/e/*", "/pwd/*"]
+            }
+            {
+                "appID": "D8GWQWVJUA.io.dvizz.app",
+                "paths": [ "/e/*", "/pwd/*"]
+            }
+        ]
+    }
+}
