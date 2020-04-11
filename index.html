@@ -19,16 +19,23 @@
       var app = {
         launchApp: function() {
           window.location.replace("dvizz.io://token=token");
-          this.timer = setTimeout(this.openWebApp, 1000);
+        
         },
-    
-        openWebApp: function() {
-          window.location.replace("http://itunesstorelink/");
-        }
       };
     
       app.launchApp();
-    })();'>Click Me!</button>
+    })();'>new token</button>
+
+<button type="button" onclick='(function() {
+    var app = {
+      launchApp: function() {
+        window.location.replace("dvizz.io://event=5e8a3748-25e3-4ace-bdb5-ceb44ee1904c");
+      
+      },
+    };
+  
+    app.launchApp();
+  })();'>event</button>
     
     </body>
 </html>
