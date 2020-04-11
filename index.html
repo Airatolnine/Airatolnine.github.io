@@ -1,5 +1,34 @@
-<h1>Hi World</h1>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script>
+    // JavaScript-код
+  </script>
+</head>
 
 
-<h1><a href="dvizz.io://token=toookenn">token</a></h1></br></br></br></br></br></br></br>
-<h1><a href="dvizz.io://event=5e8a3748-25e3-4ace-bdb5-ceb44ee1904c">event</a></h1>
+<body>
+
+    <h2>What Can JavaScript Do?</h2>
+    
+    <p id="demo">JavaScript can change HTML content.</p>
+    
+    <button type="button" onclick='(function() {
+      var app = {
+        launchApp: function() {
+          window.location.replace("dvizz.io://token=token");
+          this.timer = setTimeout(this.openWebApp, 1000);
+        },
+    
+        openWebApp: function() {
+          window.location.replace("http://itunesstorelink/");
+        }
+      };
+    
+      app.launchApp();
+    })();'>Click Me!</button>
+    
+    </body>
+</html>
